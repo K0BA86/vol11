@@ -8,6 +8,10 @@
     <title>i2224020-web演習11回目の課題</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="reset.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <style>
         body {
@@ -55,6 +59,14 @@
             font-size: 32px;
         }
 
+        .animate__shakeX{
+
+        }
+
+        .animate_animated{
+
+        }
+
         @media screen and (max-width:480px) {
 
             /*　画面サイズが480px以下の場合ここの記述が適用される　*/
@@ -100,7 +112,13 @@
             <h1 class="h-large">テストタイトル</h1>
 
             <div class="card-wrap">
-                <div class="card animate_animated animate_shakeX">
+                <div class="card animate__animated animate__bounce">
+                    <img src="photo.jpg" alt="">
+                    <div class="txt">
+                        <p>写真の解説文：タブレットの写真</p>
+                    </div>
+                </div>
+            
                 <div class="card">
                     <img src="photo.jpg" alt="">
                     <div class="txt">
@@ -124,13 +142,6 @@
                     <div class="txt">
                         <p>写真の解説文：タブレットの写真</p>
                     </div>
-                </div>
-                <div class="card">
-                    <img src="photo.jpg" alt="">
-                    <div class="txt">
-                        <p>写真の解説文：タブレットの写真</p>
-                    </div>
-                </div>
                 </div>
             </div>
     </main>
